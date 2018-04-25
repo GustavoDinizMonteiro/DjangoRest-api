@@ -9,7 +9,6 @@ model-mommy = "*"
 [packages]
 django = "*"
 djangorestframework = "*"
-python-dotenv = "*"
 gunicorn = "*"
 django-heroku = "*"
 

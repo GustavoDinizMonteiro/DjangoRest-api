@@ -5,6 +5,7 @@ name = "pypi"
 
 [dev-packages]
 model-mommy = "*"
+"flake8" = "*"
 
 [packages]
 django = "*"

@@ -1,0 +1,16 @@
+language: python
+python:
+    - "3.3"
+    - "3.4"
+    - "3.5"
+    - "3.6"
+    - "3.7-dev"
+
+# command to install dependencies
+install: "make"
+
+cache: pip
+
+# command to run tests
+script:
+    - make pep8

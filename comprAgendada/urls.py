@@ -18,8 +18,10 @@ from django.urls import path
 from django.conf.urls import url, include
 
 from .products.urls import product_routes
+from .hampers.urls import hamper_routes
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url('^', include(product_routes.urls))
+    url('^', include(product_routes.urls)),
+    url('^', include(hamper_routes.urls))
 ]

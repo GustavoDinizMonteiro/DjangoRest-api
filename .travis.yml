@@ -11,6 +11,7 @@ install: "make"
 
 cache: pip
 
-# command to run tests
+# command to run tests and linter
 script:
+    - make unit-test
     - make pep8

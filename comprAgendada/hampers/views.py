@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from rest_framework.viewsets import ModelViewSet
 
-# Create your views here.
+from .models import Hamper
+from .serializers import HamperSerializer
+
+
+class HamperResource(ModelViewSet):
+    queryset = Hamper.objects.all()
+    serializer_class = HamperSerializer

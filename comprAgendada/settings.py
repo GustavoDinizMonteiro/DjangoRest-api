@@ -44,7 +44,8 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    'comprAgendada.products'
+    'comprAgendada.products',
+    'comprAgendada.hampers'
 ]
 
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS

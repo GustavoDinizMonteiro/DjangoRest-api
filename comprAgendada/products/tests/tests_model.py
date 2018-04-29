@@ -1,6 +1,6 @@
 from django.test import TestCase
 from model_mommy import mommy
-from products.models import Product
+from comprAgendada.products.models import Product
 
 
 class TestProduct(TestCase):
